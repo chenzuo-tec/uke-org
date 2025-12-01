@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>橙c的尤克里里</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+      body {
+        font-family: 'Fredoka', 'Noto Sans SC', sans-serif;
+      }
+      /* Custom scrollbar for tab editor */
+      .hide-scrollbar::-webkit-scrollbar {
+        height: 8px;
+      }
+      .hide-scrollbar::-webkit-scrollbar-track {
+        background: #fff7ed;
+      }
+      .hide-scrollbar::-webkit-scrollbar-thumb {
+        background-color: #f97316;
+        border-radius: 20px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-orange-50 text-slate-800">
+    <div id="root"></div>
+  </body>
+</html>
